@@ -42,5 +42,6 @@ for i in range(0, len(temp_data['Anomaly'])):
     sum_anomaly += temp_data['Anomaly'][i]
 
 average_anomaly = sum_anomaly / len(temp_data['Anomaly'])
+print(min_anomaly, max_anomaly, average_anomaly)
 
 plt.show()
