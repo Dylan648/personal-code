@@ -4,7 +4,7 @@ import math
 
 co2_data = pd.read_csv("co2_data.csv", header=0)
 print(co2_data)
-co2_data['Average'] = co2_data['Average'].replace(-99.99, math.NaN)
+co2_data['Average'] = co2_data['Average'].replace(-99.99, math.nan)
 print(co2_data)
 co2_data.dropna(subset=['Average'], inplace=True)
 print(co2_data)
