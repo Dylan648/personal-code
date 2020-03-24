@@ -10,9 +10,9 @@ co2_data.dropna(subset=['Average'], inplace=True)
 print(co2_data)
 
 
-# plt.plot(co2_data['Year'], co2_data['Average'], color='blue')
-# plt.ylabel('CO2 Levels in ppm')
-# plt.xlabel('Years')
-# plt.title('Change in Carbon Dioxide Levels')
+plt.plot(co2_data['Year'], co2_data['Average'], color='blue')
+plt.ylabel('CO2 Levels in ppm')
+plt.xlabel('Years')
+plt.title('Change in Carbon Dioxide Levels')
 
 plt.show()
